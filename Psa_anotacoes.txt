@@ -5,7 +5,6 @@
 * **Framework:** Spring Boot 3.4+ (Latest Stable).
 * **Persistence:** PostgreSQL + Spring Boot Starter JDBC (Uso de JdbcClient).
 * **Migration:** Flyway (Versionamento de banco de dados).
-
 * **Docs:** SpringDoc OpenAPI (Swagger) UI.
 * **AI Engine:** Spring AI (Dependências pré-configuradas).
 
@@ -34,3 +33,7 @@
 
 ## 6. Roadmap Spring AI
 > **Instrução para a IA:** O projeto deve estar preparado para o Spring AI. Incluir o `spring-ai-bom` no Maven e criar uma estrutura base na camada de `infrastructure` para futuras implementações de Chat e Embedding.
+
+
+
+Leia o arquivo @ARCHITECTURE.md e, com base nele, gere o arquivo pom.xml completo (com Java 24 e Spring Boot 3.4+) e o arquivo application.yml configurado para PostgreSQL e Virtual Threads. Crie também a estrutura de pastas inicial seguindo a Clean Architecture.
