@@ -37,3 +37,18 @@
 
 
 Leia o arquivo @ARCHITECTURE.md e, com base nele, gere o arquivo pom.xml completo (com Java 24 e Spring Boot 3.4+) e o arquivo application.yml configurado para PostgreSQL e Virtual Threads. Crie também a estrutura de pastas inicial seguindo a Clean Architecture.
+
+
+
+
+A Primeira "Fatia Vertical" (Vertical Slice)
+
+1. Agora, leia o @ARCHITECTURE.md e o @DOMAIN_MODEL.md.
+
+2. Gere o script SQL do Flyway (V1__create_patients_table.sql).
+
+3.Implemente a classe de domínio Paciente (lembre-se: modelo rico, sem anemia).
+
+4.Implemente o PacienteRepository usando JdbcClient.
+
+5.Gere um teste unitário simples para validar a regra de negócio de idade do paciente."

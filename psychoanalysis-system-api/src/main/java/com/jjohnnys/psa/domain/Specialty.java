@@ -1,0 +1,12 @@
+package com.jjohnnys.psa.domain;
+
+public enum Specialty {
+    TCC,
+    PSICANALISE,
+    FENOMENOLOGIA,
+    PSICOLOGIA_COGNITIVA,
+    GESTALT,
+    PSICOLOGIA_HUMANISTA,
+    PSICOLOGIA_COMPORTAMENTAL,
+    PSICOLOGIA_ANALITICA
+}

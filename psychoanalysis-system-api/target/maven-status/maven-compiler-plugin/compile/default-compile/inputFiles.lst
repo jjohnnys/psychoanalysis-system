@@ -1,0 +1,16 @@
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\application\repository\AppointmentRepository.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\application\repository\ClinicalEvolutionRepository.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\application\repository\PatientRepository.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\application\repository\PsychologistRepository.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\domain\Appointment.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\domain\AppointmentStatus.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\domain\ClinicalEvolution.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\domain\exception\BusinessException.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\domain\Patient.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\domain\Psychologist.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\domain\Specialty.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\infrastructure\repository\JdbcAppointmentRepository.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\infrastructure\repository\JdbcClinicalEvolutionRepository.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\infrastructure\repository\JdbcPatientRepository.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\infrastructure\repository\JdbcPsychologistRepository.java
+c:\Users\INTEL\Projetos\pcs\psychoanalysis-system-api\src\main\java\com\jjohnnys\psa\PsychanalysisSystemApiApplication.java
