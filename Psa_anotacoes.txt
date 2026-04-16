@@ -41,14 +41,10 @@ Leia o arquivo @ARCHITECTURE.md e, com base nele, gere o arquivo pom.xml complet
 
 
 
-A Primeira "Fatia Vertical" (Vertical Slice)
+Leia o @docs/ARCHITECTURE.md e o @docs/DOMAIN_MODEL.md. com base nos arquivos gere os scripts SQL do Flyway. Implemente as classes des domínios (lembre-se: modelo rico, sem anemia) e Implemente os repositories usando JdbcClient. Gere testes unitários para validar as regras de negócio e CRUDs.
 
-1. Agora, leia o @ARCHITECTURE.md e o @DOMAIN_MODEL.md.
+Leia o @docs/ARCHITECTURE.md e o @docs/DOMAIN_MODEL.md. Gere o script SQL do Flyway (V1__create_patients_table.sql). Implemente as classes des domínios (lembre-se: modelo rico, sem anemia). Implemente o PacienteRepository usando JdbcClient. Gere um teste unitário simples para validar a regra de negócio de idade do paciente.
 
-2. Gere o script SQL do Flyway (V1__create_patients_table.sql).
 
-3.Implemente a classe de domínio Paciente (lembre-se: modelo rico, sem anemia).
 
-4.Implemente o PacienteRepository usando JdbcClient.
-
-5.Gere um teste unitário simples para validar a regra de negócio de idade do paciente."
+Leia os arquivos em @/docs/ARCHITECTURE.md, @/docs/DOMAIN_MODEL.md e @/docs/APPLICATION_API.md. Com base neles, implemente o fluxo completo de Cadastro de Paciente: Crie o Record PacienteRequest com as validações necessárias. Crie o Use Case (Service) RegistrarPacienteUseCase. Crie o PacienteController com o endpoint POST /api/v1/pacientes. Garanta que o Controller trate exceções de negócio (como CPF inválido) usando ProblemDetail.
